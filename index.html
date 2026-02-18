@@ -5,6 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Strawberry Clock — Eastern Time</title>
   <style>
+    @font-face {
+      font-family: 'ABC Diatype';
+      src: local('ABC Diatype'), local('ABC Diatype Regular'),
+           url('fonts/ABC-Diatype.woff2') format('woff2'),
+           url('fonts/ABC-Diatype.woff') format('woff');
+      font-weight: 400 700;
+      font-display: swap;
+    }
     * { box-sizing: border-box; }
     body {
       margin: 0;
@@ -13,8 +21,8 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      background: #e8e4dc;
-      font-family: Georgia, 'Times New Roman', serif;
+      background: #d3d3d3;
+      font-family: 'ABC Diatype', system-ui, sans-serif;
     }
     .clock-container {
       position: relative;
